@@ -1,24 +1,46 @@
 body {
-	width: 75%;
-	margin: 0 auto;
+	background-color: #8b2937;
+	margin: 0;
+	padding: 0;
 }
 
-#header-img, #nav-bar, ul, li {
+#main {
+	width: 75%;
+	margin: 200px auto 0 auto;
+}
+
+#header {
+	width: 100%;
+	background-color: #6E0120;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	z-index: 10;
+	display: block;
+	top: 0;
+	left: 0;
+}
+
+#header-img, #nav-bar, li {
 	display: inline-block;
+}
+
+li {
+	margin-right: 45px;
 }
 
 #nav-bar {
 	float: right;
-	vertical-align: middle;
+	height: 100%;
+	margin: auto 0;
 }
 
 #header-img {
-	width: 20%;
+	height: 125px;
 }
 
 #video {
 	display: block;
-	width: 50%;
 	margin: 0 auto;
 }
 
@@ -26,4 +48,5 @@ body {
 	width: 75%;
 	margin: 0 auto;
 	text-align: center;
+	margin-top: 25px;
 }
