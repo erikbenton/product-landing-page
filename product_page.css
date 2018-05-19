@@ -2,6 +2,8 @@ body {
 	background-color: #8b2937;
 	margin: 0;
 	padding: 0;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #main {
@@ -25,8 +27,22 @@ body {
 	display: inline-block;
 }
 
+#title {
+	text-align: center;
+}
+
 li {
 	margin-right: 45px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+	margin-bottom: 5px;
 }
 
 #nav-bar {
@@ -44,9 +60,24 @@ li {
 	margin: 0 auto;
 }
 
+#occasions, #weekend-deal {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#occasions+ul, #weekend-deal+ul {
+	margin-top: 0px;
+}
+
 #form {
 	width: 75%;
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#submit {
+	display: block;
+	margin: 10px auto 0 auto;
 }
